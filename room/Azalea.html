@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .next-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block; /* agar tombol selalu berada di tengah */
+            margin: 20px auto; /* memberi jarak atas-bawah dan center */
+        }
+
+        .next-button:hover {
+            background-color: #45a049;
+        }
+
+        /* Tampilan Tablet dan Ponsel */
+        @media screen and (max-width: 768px) {
+            th,
+            td {
+                font-size: 14px; /* Mengurangi ukuran font pada tablet dan ponsel */
+            }
+
+            .next-button {
+                margin: 10px auto; /* mengurangi jarak atas-bawah pada tombol */
+            }
+        }
+    </style>
+    <title>Spesifikasi</title>
+</head>
+
+<body>
+
+    <h2>Capacity Chart</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Size(m2)</th>
+                <th>Class Room</th>
+                <th>Theater</th>
+                <th>U-Shape</th>
+                <th>Cocktail</th>
+                <th>Board Room</th>
+                <th>Round Table</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Azalea</td>
+                <td>38.5</td>
+                <td>20</td>
+                <td>30</td>
+                <td>15</td>
+                <td>30</td>
+                <td>17</td>
+                <td>20</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Rental Facilities</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Room</th>
+                <th>Fullday (8-10 Hours)</th>
+                <th>Additional Hours</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Azalea</td>
+                <td>IDR 6,000,000</td>
+                <td>IDR 1,000,000</td>
+            </tr>
+        </tbody>
+    </table>
+            <!--GANTI SESUAI INDEX -->
+    <a href=http://localhost/ta/calendar/azalea.php class="next-button">Selanjutnya</a>
+
+</body>
+
+</html>
